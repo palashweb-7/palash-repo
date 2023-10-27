@@ -5,7 +5,7 @@
     height: 80px;
     justify-content: center;
     align-items: center;
-    /* display: flex; */
+     display: flex; 
 }
    
 .container{
@@ -17,6 +17,12 @@ nav{
     display: flex;
     justify-content: space-between;
    
+}
+nav a{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+
 }
 .login-form{
     display: flex;
@@ -34,7 +40,16 @@ nav{
    height: 50vh;
    border: 1px solid violet;
    align-items: center;
-  
-   
+}
+.item{
+    border: 1px solid violet;
 
+}
+section{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: 200px 200px auto; */
+    grid-template-columns: 200px 120px 200px;
+    justify-content: center;
 }
